@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>The Beta Covenant — QuestOS</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin: 0; background: #1c1710; color: #e9dcc0;
+    font: 16px/1.65 Georgia, 'Times New Roman', serif; }
+  main { max-width: 46rem; margin: 0 auto; padding: 3rem 1.4rem 5rem; }
+  h1 { font-size: 1.9rem; margin: 0 0 .3rem; color: #f4c95d; letter-spacing: .01em; }
+  h2 { font-size: 1.15rem; margin: 2.2rem 0 .5rem; color: #f4c95d; }
+  .sub { color: #a99c84; margin: 0 0 2rem; font-style: italic; }
+  a { color: #f4c95d; }
+  ul { padding-left: 1.2rem; }
+  li { margin: .35rem 0; }
+  strong { color: #fff3d6; }
+  table { border-collapse: collapse; width: 100%; margin: .8rem 0; font-size: .93rem; }
+  th, td { text-align: left; padding: .5rem .6rem; border-bottom: 1px solid #3a3024; vertical-align: top; }
+  th { color: #f4c95d; font-weight: normal; }
+  .note { border-left: 2px solid #6b5a3e; padding-left: .9rem; color: #c9bda2; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #3a3024; color: #a99c84; font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>The Beta Covenant</h1>
+  <p class="sub">QuestOS — last updated 20 August 2026</p>
+
+  <p>This page exists because the interface deliberately will not tell you. QuestOS never
+  prints a model name on a screen where the squire is speaking — an engine that gets
+  announced has begun to be a character, and the squire is an <strong>office</strong>, not
+  a model. So the truth lives here instead, in plain writing, where you can read it
+  whenever you like.</p>
+
+  <h2>Which engine answers you today</h2>
+  <table>
+    <tr><th>Where</th><th>Engine</th><th>Why</th></tr>
+    <tr><td>The squire's bar, the Chronicler, the Sounding Board, the Rehearsal</td>
+        <td>Claude Sonnet 5</td>
+        <td>The everyday voice. Fast, and enough for counsel and filing.</td></tr>
+    <tr><td>The Round Table — the council and the Trial</td>
+        <td>Claude Opus 5</td>
+        <td>The ceremony. Five seats arguing from your real numbers is where a weaker
+        engine shows instantly, so the heaviest room gets the strongest engine.</td></tr>
+    <tr><td>The founder's own realm</td>
+        <td>Claude Opus 5 throughout</td>
+        <td>He pays for it.</td></tr>
+  </table>
+
+  <p class="note">These are Anthropic models, reached through Anthropic's API. Nothing else
+  runs an engine on your behalf. The MCP door — where your own Claude Code walks into your
+  realm — calls no model at all: it reads and it writes, and your client does the thinking.</p>
+
+  <h2>What is sent, and what is not</h2>
+  <ul>
+    <li><strong>A portion, not a realm.</strong> Each turn sends a written summary of your
+    day — the steps on today's board, their titles and their state — assembled by your own
+    browser and capped in size. The whole realm is never sent.</li>
+    <li><strong>No transcript is kept.</strong> The conversation lives in the page you are
+    looking at and dies on reload. The realm is stateless by design: every turn re-briefs
+    the engine from your ledger, which is also why swapping engines costs you nothing.</li>
+    <li><strong>The verbs come back unexecuted.</strong> When the squire says a step is
+    done, the model returns <em>words</em>; your browser resolves them against your real
+    ledger and writes. A model cannot write to your realm directly. This is why an engine
+    having a bad day produces a confused sentence rather than a corrupted record.</li>
+    <li><strong>Nothing is used to train anything.</strong> Not by QuestOS.</li>
+  </ul>
+
+  <h2>Bringing your own engine</h2>
+  <p>The plan is that you supply the mind and QuestOS supplies the realm. The coin buys the
+  realm — the art, the order, the visible progress, the filing — and never metered AI. When
+  engine-binding ships you will be able to point QuestOS at Claude, ChatGPT, Grok, or an
+  open-weight model on an OpenAI-compatible endpoint, and the Engine Plate in your Quarters
+  will say which one is bound and what it can do.</p>
+
+  <p><strong>It will state facts and it will never grade.</strong> No engine will be called
+  weak, worse or better. It will say things like <em>&ldquo;this engine has no effort knob,
+  so the realm does not set one&rdquo;</em> or <em>&ldquo;this engine takes one verb at a
+  time&rdquo;</em> — and you will draw your own conclusion.</p>
+
+  <h2>Why the interface stays quiet about it</h2>
+  <p>Two rules pull against each other and this page is how they are reconciled. A knight
+  should be able to <em>choose</em> an engine; the squire should never <em>announce</em>
+  one. So the choosing and the truth-telling happen here and on the Engine Plate, and the
+  rooms where the squire speaks stay in one voice — the office's voice, whoever is powering
+  it that day.</p>
+
+  <footer>
+    <p>Related: <a href="/privacy-policy/">Privacy Policy</a> ·
+    <a href="/terms-of-service/">Terms of Service</a></p>
+    <p>If this page and the software ever disagree, the software is the bug. Say so —
+    the pigeon in the tutorial reaches the founder.</p>
+  </footer>
+</main>
+</body>
+</html>

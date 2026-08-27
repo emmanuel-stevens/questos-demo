@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuestOS — A Winnable Day</title>
+    <!-- THE KING'S SEAL IS THE MARK (grok-prompts §10, painted 2026-08-04).
+         The 🏰 emoji stood here from day one; the realm has its own emblem
+         now — a crown above an hourglass, kingship over the House of Time.
+         Cut from art/marks/questos-mark.jpg, centre-cropped to the ring
+         before downscaling: the full square keeps so much margin that at
+         32px the crown mushed and the hourglass lost its waist, which is
+         §10's own keeper test (a). Cropped, both survive.
+         Relative hrefs on purpose — Vite hashes these and rewrites the
+         base, so they resolve under the demo's /questos-demo/ prefix as
+         well as at a domain root. An absolute /art/... would 404 on the
+         demo, and art/ is not a public dir. -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/questos-demo/assets/favicon-32-uMQ2-QQf.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/questos-demo/assets/favicon-180-B1q1uiJ3.png" />
+    <!-- ADD TO HOME SCREEN (2026-08-25). The realm is walked on a phone and
+         there is no native app; this is what a home-screen icon and a
+         chrome-less window cost, which is nothing. Deliberately NO service
+         worker: the realm syncs, and an offline cache in front of a synced
+         realm is a correctness problem wearing a feature's clothes.
+
+         EVERY PATH HERE IS RELATIVE ON PURPOSE, the same reason the icons
+         above are. The app is served at TWO bases — `/questos-demo/` on Pages
+         and `/` on Vercel — and a manifest's own `start_url`, `scope` and icon
+         `src` all resolve against the MANIFEST's URL, so `./` is correct at
+         both and an absolute `/manifest.webmanifest` would 404 on the demo.
+         The manifest and its icons live in `public/` rather than `art/`
+         because Vite copies `public/` verbatim: `art/` assets are hashed and
+         rewritten, so a JSON file naming them would point at paths that do
+         not survive the build. -->
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="QuestOS" />
+    <!-- `black`, NOT `black-translucent`, and that is arithmetic rather than
+         taste. `black-translucent` extends the web view UNDER the status bar —
+         47-59px on a modern iPhone — and the room switcher's three nav buttons
+         occupy y=0..44. The whole of the phone's navigation would sit beneath
+         the clock. That is the defect repaired on 2026-08-25 (the guide's glow
+         un-fixing the squire bar onto the switcher), re-created from the other
+         direction by a meta tag; and §13 of the mobile book says a nav button
+         keeps its 44pt because it gets one tap and no reveal. `black` leaves
+         the status bar opaque and starts the document beneath it. -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="theme-color" content="#1c1710" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=IM+Fell+English:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="/questos-demo/assets/index-BaoegGDI.js"></script>
+    <link rel="stylesheet" crossorigin href="/questos-demo/assets/index-BNaw5pm8.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
