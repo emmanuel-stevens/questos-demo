@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuestOS — A Winnable Day</title>
+    <!-- THE KING'S SEAL IS THE MARK (grok-prompts §10, painted 2026-08-04).
+         The 🏰 emoji stood here from day one; the realm has its own emblem
+         now — a crown above an hourglass, kingship over the House of Time.
+         Cut from art/marks/questos-mark.jpg, centre-cropped to the ring
+         before downscaling: the full square keeps so much margin that at
+         32px the crown mushed and the hourglass lost its waist, which is
+         §10's own keeper test (a). Cropped, both survive.
+         Relative hrefs on purpose — Vite hashes these and rewrites the
+         base, so they resolve under the demo's /questos-demo/ prefix as
+         well as at a domain root. An absolute /art/... would 404 on the
+         demo, and art/ is not a public dir. -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/questos-demo/assets/favicon-32-uMQ2-QQf.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/questos-demo/assets/favicon-180-B1q1uiJ3.png" />
+    <!-- ADD TO HOME SCREEN (2026-08-25). The realm is walked on a phone and
+         there is no native app; this is what a home-screen icon and a
+         chrome-less window cost, which is nothing.
+
+         THIS COMMENT READ "Deliberately NO service worker: the realm syncs,
+         and an offline cache in front of a synced realm is a correctness
+         problem wearing a feature's clothes" UNTIL 2026-09-08, and half of
+         that sentence is still law. He ruled B51's option C on 09-04 — a
+         worker that caches the SHELL so the tutorial opens with no network —
+         and the 08-25 refusal was about caching the REALM. Both hold at once:
+         `public/sw.js` refuses `/api/` by name, stores nothing that is not a
+         same-origin `ok` GET, and answers a document from the network first,
+         so an online knight is always served the deploy that is live. The
+         registration is `src/offline.js`, called once from `main.jsx`; it
+         does not run in dev, and `?nosw` tears it down.
+
+         A COMMENT STANDS ON THE CODE IT DESCRIBES (R6, 2026-08-31), so this
+         is amended here rather than contradicted from another file — which
+         is exactly the defect that ruling was made about.
+
+         EVERY PATH HERE IS RELATIVE ON PURPOSE, the same reason the icons
+         above are. The app is served at TWO bases — `/questos-demo/` on Pages
+         and `/` on Vercel — and a manifest's own `start_url`, `scope` and icon
+         `src` all resolve against the MANIFEST's URL, so `./` is correct at
+         both and an absolute `/manifest.webmanifest` would 404 on the demo.
+         The manifest and its icons live in `public/` rather than `art/`
+         because Vite copies `public/` verbatim: `art/` assets are hashed and
+         rewritten, so a JSON file naming them would point at paths that do
+         not survive the build. -->
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="QuestOS" />
+    <!-- `black`, NOT `black-translucent`, and that is arithmetic rather than
+         taste. `black-translucent` extends the web view UNDER the status bar —
+         47-59px on a modern iPhone — and the room switcher's three nav buttons
+         occupy y=0..44. The whole of the phone's navigation would sit beneath
+         the clock. That is the defect repaired on 2026-08-25 (the guide's glow
+         un-fixing the squire bar onto the switcher), re-created from the other
+         direction by a meta tag; and §13 of the mobile book says a nav button
+         keeps its 44pt because it gets one tap and no reveal. `black` leaves
+         the status bar opaque and starts the document beneath it. -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="theme-color" content="#1c1710" />
+
+    <!-- THE FONTS MAY NOT HOLD THE REALM SHUT (X50, 2026-09-03).
+         A render-blocking <link rel="stylesheet"> ahead of the module script
+         blocks that script's EXECUTION, not merely the paint: a stylesheet
+         that never resolves leaves the document at `interactive` with an empty
+         #root and NO ERROR ANYWHERE. Measured on the built demo with the font
+         request hung: readyState=interactive, root childElementCount 0, zero
+         page errors, indefinitely — a white screen a stranger cannot tell from
+         a broken app, on a slow network, a filtered one, or a country where
+         Google's fonts do not answer.
+
+         THE FIX IS THE MEDIA SWAP, and it is the whole of it: the sheet is
+         fetched as `print`, which no renderer waits on, and promoted to `all`
+         when it lands. The realm never blocks on it. `onload` clears itself so
+         a browser that re-fires the event cannot loop.
+
+         THE FALLBACK IS REAL, WHICH IS WHY THIS COSTS NOTHING VISIBLE: every
+         face in `styles.css` is declared `'Cinzel', Georgia, serif` or
+         `'IM Fell English', Georgia, serif`, so an unresolved sheet renders the
+         realm in Georgia rather than in nothing. The <noscript> keeps the
+         blocking link for a browser with JavaScript off, where the module
+         script would never run anyway and there is nothing to block. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=IM+Fell+English:ital@0;1&display=swap"
+      rel="stylesheet"
+      media="print"
+      onload="this.onload=null;this.media='all'"
+    />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=IM+Fell+English:ital@0;1&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
+    <script type="module" crossorigin src="/questos-demo/assets/index-BarMq8DA.js"></script>
+    <link rel="stylesheet" crossorigin href="/questos-demo/assets/index-CNP2Y9hV.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
