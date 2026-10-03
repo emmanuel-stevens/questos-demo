@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- `viewport-fit=cover` — D65, ruled 2026-09-18 ("b: edge to edge").
+         IT IS THE SWITCH, NOT A PREFERENCE: without it every
+         `env(safe-area-inset-*)` in this tree resolves to 0px, so the 110 uses
+         across 19 files that were written against a notch have been inert
+         since the day they landed. Turning it on is what makes them real, all
+         at once, which is the stated cost he took. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>QuestOS — A Winnable Day</title>
+    <!-- THE KING'S SEAL IS THE MARK (grok-prompts §10, painted 2026-08-04).
+         The 🏰 emoji stood here from day one; the realm has its own emblem
+         now — a crown above an hourglass, kingship over the House of Time.
+         Cut from art/marks/questos-mark.jpg, centre-cropped to the ring
+         before downscaling: the full square keeps so much margin that at
+         32px the crown mushed and the hourglass lost its waist, which is
+         §10's own keeper test (a). Cropped, both survive.
+         Relative hrefs on purpose — Vite hashes these and rewrites the
+         base, so they resolve under the demo's /questos-demo/ prefix as
+         well as at a domain root. An absolute /art/... would 404 on the
+         demo, and art/ is not a public dir. -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/questos-demo/assets/favicon-32-uMQ2-QQf.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/questos-demo/assets/favicon-180-B1q1uiJ3.png" />
+    <!-- ADD TO HOME SCREEN (2026-08-25). The realm is walked on a phone and
+         there is no native app; this is what a home-screen icon and a
+         chrome-less window cost, which is nothing.
+
+         THIS COMMENT READ "Deliberately NO service worker: the realm syncs,
+         and an offline cache in front of a synced realm is a correctness
+         problem wearing a feature's clothes" UNTIL 2026-09-08, and half of
+         that sentence is still law. He ruled B51's option C on 09-04 — a
+         worker that caches the SHELL so the tutorial opens with no network —
+         and the 08-25 refusal was about caching the REALM. Both hold at once:
+         `public/sw.js` refuses `/api/` by name, stores nothing that is not a
+         same-origin `ok` GET, and answers a document from the network first,
+         so an online knight is always served the deploy that is live. The
+         registration is `src/offline.js`, called once from `main.jsx`; it
+         does not run in dev, and `?nosw` tears it down.
+
+         A COMMENT STANDS ON THE CODE IT DESCRIBES (R6, 2026-08-31), so this
+         is amended here rather than contradicted from another file — which
+         is exactly the defect that ruling was made about.
+
+         EVERY PATH HERE IS RELATIVE ON PURPOSE, the same reason the icons
+         above are. The app is served at TWO bases — `/questos-demo/` on Pages
+         and `/` on Vercel — and a manifest's own `start_url`, `scope` and icon
+         `src` all resolve against the MANIFEST's URL, so `./` is correct at
+         both and an absolute `/manifest.webmanifest` would 404 on the demo.
+         The manifest and its icons live in `public/` rather than `art/`
+         because Vite copies `public/` verbatim: `art/` assets are hashed and
+         rewritten, so a JSON file naming them would point at paths that do
+         not survive the build. -->
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="QuestOS" />
+    <!-- `black`, NOT `black-translucent`, and that is arithmetic rather than
+         taste. `black-translucent` extends the web view UNDER the status bar —
+         47-59px on a modern iPhone — and the room switcher's three nav buttons
+         occupy y=0..44. The whole of the phone's navigation would sit beneath
+         the clock. That is the defect repaired on 2026-08-25 (the guide's glow
+         un-fixing the squire bar onto the switcher), re-created from the other
+         direction by a meta tag; and §13 of the mobile book says a nav button
+         keeps its 44pt because it gets one tap and no reveal. `black` leaves
+         the status bar opaque and starts the document beneath it.
+
+         RULED `black-translucent` ON 2026-09-18 (D65, "b: edge to edge"), and
+         the objection above is ANSWERED rather than overruled. What made it
+         true was that nothing moved the bar down; B62's C built exactly that
+         on 2026-09-16 — `.view-toggle` takes
+         `padding: env(safe-area-inset-top, 0px) 0 0`, so the three nav buttons
+         start BELOW the clock instead of under it, and `App.jsx` measures the
+         inset the bar actually took and publishes it as `--room-top` so the
+         painting, the paint layer and `sheetTopPx` all move by the same
+         number. That code's own comment says the inset is "0 until D65 opts
+         the page in". This is the opt-in; the mechanism was waiting for it.
+
+         WHAT THIS CANNOT BE MEASURED BY IS ALSO STATED, because it was put to
+         him that way: headless Chrome can fake a 59px notch and cannot fake
+         Safari, so any picture drawn here would be a fiction. The arithmetic
+         is real and the proof is a real iPhone. If the clock ever lands on a
+         nav button again, the fault is the bar's padding, not this tag.
+
+         THE BOTTOM EDGE WAS ALREADY READY: `.squire-bar`, `.squire-dialog`,
+         `.lay-rail` and every phone layout's foot already add
+         `env(safe-area-inset-bottom)`, written for the installed app on
+         2026-08-25 — 40 uses of that edge alone. Those go live with this tag
+         too, which is the point rather than a side effect.
+
+         AND IT IS `black` AGAIN SINCE 2026-10-02, BY HIS RULING ("Solid status
+         bar"), ON A FAULT HIS PHONE SHOWED. Under `black-translucent` the
+         installed app on his iPhone was drawn from the top of the glass but
+         given a viewport short by the status bar, so a ~59pt band of the app
+         window's own navy stood under the squire's bar — OUTSIDE anything the
+         page can draw (extending the body into it cut the bar in half; see
+         `src/viewportFoot.js`). `black` starts the page beneath an opaque
+         status bar, so the viewport and the glass end together. The top inset
+         is then 0 and the thin bar's padding is inert, which is safe; it stays,
+         because the objection above is still true of `black-translucent`.
+         Takes effect when the app is deleted and added to the home screen
+         again. -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="theme-color" content="#1c1710" />
+
+    <!-- THE FONTS MAY NOT HOLD THE REALM SHUT (X50, 2026-09-03).
+         A render-blocking <link rel="stylesheet"> ahead of the module script
+         blocks that script's EXECUTION, not merely the paint: a stylesheet
+         that never resolves leaves the document at `interactive` with an empty
+         #root and NO ERROR ANYWHERE. Measured on the built demo with the font
+         request hung: readyState=interactive, root childElementCount 0, zero
+         page errors, indefinitely — a white screen a stranger cannot tell from
+         a broken app, on a slow network, a filtered one, or a country where
+         Google's fonts do not answer.
+
+         THE FIX IS THE MEDIA SWAP, and it is the whole of it: the sheet is
+         fetched as `print`, which no renderer waits on, and promoted to `all`
+         when it lands. The realm never blocks on it. `onload` clears itself so
+         a browser that re-fires the event cannot loop.
+
+         THE FALLBACK IS REAL, WHICH IS WHY THIS COSTS NOTHING VISIBLE: every
+         face in `styles.css` is declared `'Cinzel', Georgia, serif` or
+         `'IM Fell English', Georgia, serif`, so an unresolved sheet renders the
+         realm in Georgia rather than in nothing. The <noscript> keeps the
+         blocking link for a browser with JavaScript off, where the module
+         script would never run anyway and there is nothing to block. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=IM+Fell+English:ital@0;1&family=Manufacturing+Consent&display=swap"
+      rel="stylesheet"
+      media="print"
+      onload="this.onload=null;this.media='all'"
+    />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=IM+Fell+English:ital@0;1&family=Manufacturing+Consent&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
+    <script type="module" crossorigin src="/questos-demo/assets/index-BeKx-Ibw.js"></script>
+    <link rel="stylesheet" crossorigin href="/questos-demo/assets/index-HFbofH_J.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

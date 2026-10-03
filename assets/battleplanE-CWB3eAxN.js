@@ -1,0 +1,47 @@
+import{r as h,$ as _,a0 as B,a1 as P,a2 as H,g as W,j as e,aX as q,aY as C,aZ as U,a3 as M,a4 as j,N as Y,A as X,R as $,a5 as Z,M as J,i as K,a6 as V}from"./index-BeKx-Ibw.js";import{u as Q,R as ee,L as ae,a as ie}from"./family-CTIbcDuO.js";const te=new Map,re={light:"Light",medium:"Medium",deep:"Deep"};function le(l){const i=Math.floor(l/60),t=l%60;return i===0?`${t}m`:t===0?`${i}h`:`${i}h ${t}m`}function z(l){const i=(l%1440+1440)%1440,t=String(Math.floor(i/60)).padStart(2,"0"),s=String(i%60).padStart(2,"0");return Z(`${t}:${s}`)}function pe({sheetYields:l=!1,guide:i=null,orders:t=[],energy:s="high",onSetEnergy:n,today:m,onSelectQuest:x,onCompleteTask:p,onOpenWarTable:d,onReoptimize:r,dodges:g=te,anchors:c,onVerdictMenu:I,onClose:ne,rolled:L=!0,onRoll:b,stepsMark:u=null}){const A=Q(),[,E]=h.useState(0);h.useEffect(()=>{const a=setInterval(()=>E(o=>o+1),6e4);return()=>clearInterval(a)},[]);const{hours:f,placeholder:F}=h.useMemo(()=>_({anchors:c}),[c]),S=h.useMemo(()=>B(f),[f]),k=h.useMemo(()=>P(t,a=>a.task.effort,a=>a.task.title),[t]),w=new Date,N=H(w.getHours()*60+w.getMinutes(),f),G=t.reduce((a,o)=>a+W(o.task),0),R=t.length===0,v=(i==null?void 0:i.target)==="task"?t.find(a=>a.task.id===i.taskId):null,y=v??t[0]??null,O=!!v||(i==null?void 0:i.target)==="energy";if(L||l)return e.jsxs("div",{className:"lay-bpe",children:[e.jsx("style",{children:D}),e.jsxs("div",{className:`lay-bpe-rod${O?" guide-lit":""}`,style:{bottom:`${A+C}px`,height:`${q}px`},children:[y&&e.jsx(ee,{onPress:()=>p==null?void 0:p(y.quest.id,y.task.id),label:`Sign off ${y.task.title}`}),e.jsxs("button",{type:"button",className:"lay-bpe-rodbtn",onClick:()=>b==null?void 0:b(!1),"aria-label":"Unroll the day",children:[e.jsx("span",{className:"lay-rod-text",children:y?e.jsxs(e.Fragment,{children:[e.jsx("span",{className:"lay-rod-kicker",children:"Next"}),y.task.title]}):e.jsxs(e.Fragment,{children:[e.jsx("span",{className:"lay-rod-kicker",children:"The day"}),m," · unroll to plan"]})}),e.jsx("span",{className:"lay-rod-chev","aria-hidden":"true",children:"⌃"})]})]})]});const T=()=>b==null?void 0:b(!0);return e.jsxs("div",{className:"lay-bpe",children:[e.jsx("style",{children:D}),e.jsxs(ae,{name:"The day",badge:ie.battleplan,rods:!0,onSetDown:T,ariaLabel:"The day, unrolled",rail:e.jsxs(X,{children:[e.jsx($,{tone:"primary",onPress:d,note:"the whole day, hours drawn in",lit:j(i,"wartable"),children:"The War Table"}),e.jsx($,{onPress:r,note:"re-plan the open work",children:"Reoptimize"})]}),children:[e.jsxs("div",{className:"lay-bpe-top",children:[e.jsx(U,{text:m,className:"lay-bpe-date",size:52}),e.jsxs("p",{className:"lay-bpe-claim",children:[e.jsx("span",{children:"A winnable day, nothing more."}),e.jsxs("span",{title:"Planned time, from effort budgets: light 30m, medium 75m, deep 2.5h",children:["~",le(G)," planned"]})]})]}),e.jsxs("div",{className:`lay-bpe-energy${j(i,"energy")?` ${M}`:""}`,role:"group","aria-label":"Today's energy",children:[e.jsx("span",{className:"lay-bpe-energy-label",children:"Today's energy"}),["low","medium","high"].map(a=>e.jsx("button",{type:"button",className:`lay-bpe-energy-btn${s===a?" on":""}`,"aria-pressed":s===a,onClick:()=>n==null?void 0:n(a),title:`Declare ${a} energy — the day's five are chosen against it`,children:a},a))]}),R?e.jsx(Y,{children:"No orders on the board today. Reoptimize packs the open work into winnable days, and the War Table draws the whole day with its hours — either door is below."}):S.map(a=>e.jsxs("section",{className:`lay-bpe-field${N===a.id?" is-now":""}`,children:[e.jsxs("header",{className:"lay-bpe-field-head",children:[e.jsx("span",{className:"lay-bpe-field-name",children:a.label}),e.jsxs("span",{className:"lay-bpe-field-hours",children:[z(a.from)," – ",z(a.to)]}),N===a.id&&e.jsx("span",{className:"lay-bpe-here",children:"you are here"})]}),k[a.id].length===0?e.jsx("p",{className:"lay-bpe-open",children:"Open ground."}):e.jsx("ul",{className:"lay-bpe-list",children:k[a.id].map(o=>e.jsx(se,{entry:o,lit:j(i,"task",o.task.id),dodges:g,onSelectQuest:x,onCompleteTask:p,onVerdictMenu:I,stepsLine:u&&u.taskId===o.task.id?u.line:null},o.task.id))})]},a.id)),F&&e.jsx("p",{className:"lay-bpe-placeholder",children:"The hours are the realm's placeholders until you write your own Rule of the House at the War Table."})]})]})}function se({entry:l,dodges:i,onSelectQuest:t,onCompleteTask:s,onVerdictMenu:n,lit:m=!1,stepsLine:x=null}){const{epic:p,quest:d,task:r}=l,g=J(i.get(r.id)??0)==="mark";return e.jsxs("li",{className:`lay-bpe-row${m?` ${M}`:""}`,children:[e.jsx("button",{type:"button",className:"lay-bpe-sign",title:"Sign it off","aria-label":`Sign off ${r.title}`,onClick:()=>s==null?void 0:s(d.id,r.id),children:e.jsx("span",{className:"lay-bpe-ring","aria-hidden":"true"})}),e.jsxs("button",{type:"button",className:"lay-bpe-main",onClick:()=>t==null?void 0:t(d.id),onContextMenu:n?c=>n(c,d.id,r.id):void 0,title:`Open ${d.title}`,children:[e.jsxs("span",{className:"lay-bpe-title",children:[g&&e.jsxs("span",{className:"lay-bpe-wilt",title:"Shown and set aside more than twice — this one wants a verdict, not another push",children:["🥀"," "]}),r.title]}),e.jsxs("span",{className:"lay-bpe-meta",children:[e.jsx("i",{className:"lay-bpe-accent",style:{background:p.accent},"aria-hidden":"true"}),re[r.effort]??"Medium",K(r)?" · rite":"",r.due?` · ${r.hardDue?"⚑ ":""}due ${r.due.slice(5)}`:"",e.jsx(V,{task:r})]}),x&&e.jsx("span",{className:"lay-bpe-steps",children:x})]}),n&&e.jsx("button",{type:"button",className:"lay-bpe-more",onClick:c=>n(c,d.id,r.id),title:"Give this step a verdict — not today, out of my hands, needs more context…","aria-label":`Verdicts for ${r.title}`,children:"⋯"})]})}const D=`
+.lay-bpe .lay-bpe-rod {
+  position: fixed; left: 8px; right: 8px; z-index: 30; border-radius: 26px;
+  background: linear-gradient(#d9c39a, #b89b6a 55%, #8c7248);
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.55), inset 0 -3px 6px rgba(0, 0, 0, 0.25);
+  display: flex; align-items: center; gap: 4px; padding: 0 6px 0 4px; color: #2b2013;
+}
+.lay-bpe .lay-bpe-rod.guide-lit { border-radius: 26px; }
+.lay-bpe .lay-bpe-rodbtn {
+  flex: 1 1 auto; min-width: 0; min-height: 44px; display: flex; align-items: center; gap: 8px;
+  border: 0; background: none; color: #2b2013; font: inherit; font-size: 15px; text-align: left; padding: 0 4px; cursor: pointer;
+}
+.lay-bpe .lay-bpe-date { margin: 0.2rem 0 0; font-family: 'Cinzel', Georgia, serif; font-size: 22px; line-height: 1.2; color: var(--ink); }
+.lay-bpe .lay-bpe-claim {
+  display: flex; align-items: baseline; justify-content: space-between; gap: 0.6rem;
+  margin: 0.25rem 0 0.5rem; font-size: 14.5px; font-style: italic; color: var(--ink-dim);
+}
+.lay-bpe .lay-bpe-energy { display: flex; align-items: center; gap: 0.35rem; margin: 0 0 0.4rem; }
+.lay-bpe .lay-bpe-energy.guide-lit { border-radius: 999px; padding: 0.15rem 0.45rem; }
+.lay-bpe .lay-bpe-energy-label { font-size: 12px; color: var(--ink-dim); margin-right: 0.2rem; }
+.lay-bpe .lay-bpe-energy-btn {
+  min-height: 44px; min-width: 68px; padding: 0 0.5rem; border: 1px solid var(--border); border-radius: 6px;
+  background: transparent; color: var(--ink-dim); font-family: inherit; font-size: 14px; cursor: pointer;
+}
+.lay-bpe .lay-bpe-energy-btn.on { border-color: var(--gold); color: var(--ink); background: rgba(122, 92, 14, 0.12); }
+.lay-bpe .lay-bpe-field { margin-top: 0.5rem; }
+.lay-bpe .lay-bpe-field-head {
+  display: flex; align-items: baseline; gap: 0.45rem; padding: 0.45rem 0 0.2rem;
+  border-bottom: 1px solid rgba(43, 32, 19, 0.35);
+}
+.lay-bpe .lay-bpe-field-name { font-size: 12px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink); }
+.lay-bpe .lay-bpe-field-hours { font-size: 13px; color: var(--ink-dim); }
+.lay-bpe .lay-bpe-here { margin-left: auto; font-size: var(--lay-fs-fine); color: var(--gold); }
+.lay-bpe .lay-bpe-open { margin: 0.4rem 0; font-size: 13px; font-style: italic; color: var(--ink-dim); }
+.lay-bpe .lay-bpe-list { list-style: none; margin: 0; padding: 0; }
+.lay-bpe .lay-bpe-row { display: flex; align-items: center; gap: 0.35rem; min-height: 56px; border-bottom: 1px solid rgba(43, 32, 19, 0.18); }
+.lay-bpe .lay-bpe-row.guide-lit { border-radius: 10px; }
+.lay-bpe .lay-bpe-sign { flex: 0 0 auto; width: 44px; height: 44px; display: grid; place-items: center; padding: 0; border: 0; background: transparent; cursor: pointer; }
+.lay-bpe .lay-bpe-ring { width: 22px; height: 22px; border: 2px solid var(--ink); border-radius: 50%; }
+.lay-bpe .lay-bpe-main { flex: 1 1 auto; min-width: 0; min-height: 44px; padding: 0.35rem 0.2rem; border: 0; background: none; color: var(--ink); text-align: left; font: inherit; cursor: pointer; }
+.lay-bpe .lay-bpe-title { display: block; font-size: 16px; line-height: 1.25; overflow-wrap: anywhere; }
+.lay-bpe .lay-bpe-meta { display: block; margin-top: 0.15rem; font-size: 13px; color: var(--ink-dim); }
+.lay-bpe .lay-bpe-steps { display: block; margin-top: 0.15rem; font-size: 13px; color: var(--ink-dim); font-variant-numeric: tabular-nums; }
+.lay-bpe .lay-bpe-accent { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 0.35rem; vertical-align: middle; }
+.lay-bpe .lay-bpe-more { flex: 0 0 auto; width: 44px; height: 44px; border: 0; background: none; color: var(--ink-dim); font-size: 20px; cursor: pointer; }
+.lay-bpe .lay-bpe-placeholder { margin: 0.6rem 0; font-size: var(--lay-fs-fine); font-style: italic; color: var(--ink-dim); }
+`;export{pe as default};
