@@ -1,0 +1,1047 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document (opensource)
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 4 0 R /F4 5 0 R /F5 6 0 R /F6 7 0 R 
+  /F7 9 0 R /F8 12 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/BaseFont /Times-Bold /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+5 0 obj
+<<
+/BaseFont /Times-Roman /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font
+>>
+endobj
+6 0 obj
+<<
+/BaseFont /Times-Italic /Encoding /WinAnsiEncoding /Name /F5 /Subtype /Type1 /Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Times-BoldItalic /Encoding /WinAnsiEncoding /Name /F6 /Subtype /Type1 /Type /Font
+>>
+endobj
+8 0 obj
+<<
+/Contents 18 0 R /MediaBox [ 0 0 612 792 ] /Parent 17 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F7 /Subtype /Type1 /Type /Font
+>>
+endobj
+10 0 obj
+<<
+/Contents 19 0 R /MediaBox [ 0 0 612 792 ] /Parent 17 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+11 0 obj
+<<
+/Contents 20 0 R /MediaBox [ 0 0 612 792 ] /Parent 17 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+12 0 obj
+<<
+/BaseFont /Symbol /Name /F8 /Subtype /Type1 /Type /Font
+>>
+endobj
+13 0 obj
+<<
+/Contents 21 0 R /MediaBox [ 0 0 612 792 ] /Parent 17 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+14 0 obj
+<<
+/Contents 22 0 R /MediaBox [ 0 0 612 792 ] /Parent 17 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+15 0 obj
+<<
+/PageMode /UseNone /Pages 17 0 R /Type /Catalog
+>>
+endobj
+16 0 obj
+<<
+/Author (QuestOS) /CreationDate (D:20000101000000+00'00') /Creator (\(unspecified\)) /Keywords (source-sha256:3ba7f50a6e3a16c8410a4016d00780adbd0d383c64a758fac4069b691d0f55db) /ModDate (D:20000101000000+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (Connecting your AI assistant to QuestOS) /Title (Set Up Your AI for QuestOS) /Trapped /False
+>>
+endobj
+17 0 obj
+<<
+/Count 5 /Kids [ 8 0 R 10 0 R 11 0 R 13 0 R 14 0 R ] /Type /Pages
+>>
+endobj
+18 0 obj
+<<
+/Length 4661
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 8.5 Tf 10.2 TL ET
+.352941 .313725 .25098 rg
+BT 1 0 0 1 54 752.4 Tm (QuestOS \227 Set Up Your AI) Tj T* ET
+BT 1 0 0 1 553.274 752.4 Tm (1) Tj T* ET
+.541176 .454902 .329412 RG
+.5 w
+n 54 747.36 m 558 747.36 l S
+Q
+q
+1 0 0 1 60 693.6 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL (Set Up Your AI for QuestOS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 668.6 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 4 Tm /F3 11 Tf 15 TL (A step-by-step guide. No technical background needed.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 633.6 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 4 Tm /F2 15 Tf 19 TL (What this does) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 611.1 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 4 Tm /F4 10.5 Tf 14.5 TL (Right now, if you ask ChatGPT or Claude about your week, it has to guess. It doesn't know what you're working on.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 588.6 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 4 Tm /F4 10.5 Tf 14.5 TL (This guide connects your AI to QuestOS. After about ten minutes, you can ask your AI things like:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 566.1 cm
+q
+.352941 .313725 .25098 rg
+BT 1 0 0 1 18 4 Tm /F5 10.5 Tf 14.5 TL ("What should I work on today?") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 543.6 cm
+q
+.352941 .313725 .25098 rg
+BT 1 0 0 1 18 4 Tm /F5 10.5 Tf 14.5 TL ("What am I in the middle of?") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 521.1 cm
+q
+.352941 .313725 .25098 rg
+BT 1 0 0 1 18 4 Tm /F5 10.5 Tf 14.5 TL ("What am I getting better at?") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 507.1 cm
+Q
+q
+1 0 0 1 60 492.6 cm
+q
+BT 1 0 0 1 0 4 Tm 14.5 TL /F4 10.5 Tf .101961 .070588 .031373 rg (And it will answer from your ) Tj /F3 10.5 Tf (actual) Tj /F4 10.5 Tf ( goals and tasks \227 not from guesses.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 455.6 cm
+q
+BT 1 0 0 1 0 18.5 Tm 14.5 TL /F3 10.5 Tf .101961 .070588 .031373 rg (Your AI can only read. It cannot change anything.) Tj /F4 10.5 Tf ( It can't add tasks, can't check things off, can't delete anything.) Tj T* (It reads, and that's all.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 420.6 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 4 Tm /F2 15 Tf 19 TL (What you need) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 398.1 cm
+BT /F1 9 Tf 10.8 TL ET
+0 0 0 rg
+BT 1 0 0 1 -10 5.5 Tm (\177) Tj T* ET
+Q
+q
+1 0 0 1 66 398.1 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 4 Tm /F4 10.5 Tf 14.5 TL (A QuestOS account \(you signed in with a link sent to your email\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 379.6 cm
+BT /F1 9 Tf 10.8 TL ET
+0 0 0 rg
+BT 1 0 0 1 -10 5.5 Tm (\177) Tj T* ET
+Q
+q
+1 0 0 1 66 379.6 cm
+q
+BT 1 0 0 1 0 4 Tm 14.5 TL /F3 10.5 Tf .101961 .070588 .031373 rg (Claude Desktop) Tj /F4 10.5 Tf ( or ) Tj /F3 10.5 Tf (Claude Code) Tj /F4 10.5 Tf ( on your computer) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 369.6 cm
+Q
+q
+1 0 0 1 60 355.1 cm
+q
+BT 1 0 0 1 18 4 Tm 14.5 TL /F6 10.5 Tf .352941 .313725 .25098 rg (Note:) Tj /F5 10.5 Tf ( This currently works with Claude. ChatGPT and other assistants) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 332.6 cm
+q
+.352941 .313725 .25098 rg
+BT 1 0 0 1 18 4 Tm /F5 10.5 Tf 14.5 TL (don't support this kind of connection yet. If you use something else,) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 310.1 cm
+q
+.352941 .313725 .25098 rg
+BT 1 0 0 1 18 4 Tm /F5 10.5 Tf 14.5 TL (nothing here will work \227 that's not your fault, and it may change.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 296.1 cm
+Q
+q
+1 0 0 1 60 261.1 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 4 Tm /F2 15 Tf 19 TL (Some words you'll see) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 238.6 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 4 Tm /F4 10.5 Tf 14.5 TL (You don't need to understand these deeply. Just enough to not be thrown by them.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 201.6 cm
+q
+BT 1 0 0 1 0 18.5 Tm 14.5 TL /F3 10.5 Tf .101961 .070588 .031373 rg (MCP) Tj /F4 10.5 Tf ( \227 a standard way for AI assistants to connect to outside tools. Think of it like a USB port: once something) Tj T* (speaks MCP, any AI that also speaks MCP can plug into it.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 164.6 cm
+q
+BT 1 0 0 1 0 18.5 Tm 14.5 TL /F3 10.5 Tf .101961 .070588 .031373 rg (Key) Tj /F4 10.5 Tf ( \227 a long password, made just for this. It lets your AI read your QuestOS and nothing else. It's not your account) Tj T* (password.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 127.6 cm
+q
+BT 1 0 0 1 0 18.5 Tm 14.5 TL /F3 10.5 Tf .101961 .070588 .031373 rg (Config file) Tj /F4 10.5 Tf ( \227 a small settings file on your computer that tells your AI what it's allowed to connect to. You'll paste a) Tj T* (few lines into it.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 92.6 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 4 Tm /F2 15 Tf 19 TL (Step 1 \227 Get your key) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 70.1 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 4 Tm /F3 10.5 Tf 14.5 TL (Takes about a minute.) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+19 0 obj
+<<
+/Length 5985
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 8.5 Tf 10.2 TL ET
+.352941 .313725 .25098 rg
+BT 1 0 0 1 54 752.4 Tm (QuestOS \227 Set Up Your AI) Tj T* ET
+BT 1 0 0 1 553.274 752.4 Tm (2) Tj T* ET
+.541176 .454902 .329412 RG
+.5 w
+n 54 747.36 m 558 747.36 l S
+Q
+q
+1 0 0 1 60 674.1 cm
+BT /F1 9 Tf 10.8 TL ET
+0 0 0 rg
+BT 1 0 0 1 -10 34.5 Tm (1) Tj T* ET
+Q
+q
+1 0 0 1 66 674.1 cm
+q
+BT 1 0 0 1 0 33 Tm 14.5 TL /F4 10.5 Tf .101961 .070588 .031373 rg (Open QuestOS and make sure you're ) Tj /F3 10.5 Tf (signed in) Tj /F4 10.5 Tf (. \(Bottom right there's a small key icon [key icon] \227 click it. If it) Tj T* (asks for your email, you're not signed in yet. Enter your email, then open the link it sends you ) Tj /F3 10.5 Tf (in the same web) Tj T* (browser) Tj /F4 10.5 Tf (.\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 641.1 cm
+BT /F1 9 Tf 10.8 TL ET
+0 0 0 rg
+BT 1 0 0 1 -10 20 Tm (2) Tj T* ET
+Q
+q
+1 0 0 1 66 641.1 cm
+q
+BT 1 0 0 1 0 18.5 Tm 14.5 TL /F4 10.5 Tf .101961 .070588 .031373 rg (Open ) Tj /F3 10.5 Tf (your Quarters) Tj /F4 10.5 Tf ( \227 click the round picture of a suit of armor at the end of the three room names at the top \(on) Tj T* (a computer it sits just to the right of them\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 622.6 cm
+BT /F1 9 Tf 10.8 TL ET
+0 0 0 rg
+BT 1 0 0 1 -10 5.5 Tm (3) Tj T* ET
+Q
+q
+1 0 0 1 66 622.6 cm
+q
+BT 1 0 0 1 0 4 Tm 14.5 TL /F4 10.5 Tf .101961 .070588 .031373 rg (Scroll down until you see ) Tj /F3 10.5 Tf (The Ring of Keys) Tj /F4 10.5 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 589.6 cm
+BT /F1 9 Tf 10.8 TL ET
+0 0 0 rg
+BT 1 0 0 1 -10 20 Tm (4) Tj T* ET
+Q
+q
+1 0 0 1 66 589.6 cm
+q
+BT 1 0 0 1 0 18.5 Tm 14.5 TL /F4 10.5 Tf .101961 .070588 .031373 rg (In the box, type what you'll use this key for. Something like ) Tj /F7 10.5 Tf (my laptop) Tj /F4 10.5 Tf ( is fine. This is only a label so you can) Tj T* (recognise it later.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 571.1 cm
+BT /F1 9 Tf 10.8 TL ET
+0 0 0 rg
+BT 1 0 0 1 -10 5.5 Tm (5) Tj T* ET
+Q
+q
+1 0 0 1 66 571.1 cm
+q
+BT 1 0 0 1 0 4 Tm 14.5 TL /F4 10.5 Tf .101961 .070588 .031373 rg (Click ) Tj /F3 10.5 Tf (Cut a new key) Tj /F4 10.5 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 552.6 cm
+BT /F1 9 Tf 10.8 TL ET
+0 0 0 rg
+BT 1 0 0 1 -10 5.5 Tm (6) Tj T* ET
+Q
+q
+1 0 0 1 66 552.6 cm
+q
+BT 1 0 0 1 0 4 Tm 14.5 TL /F3 10.5 Tf .101961 .070588 .031373 rg (Copy the key right away.) Tj /F4 10.5 Tf ( Click the ) Tj /F3 10.5 Tf (Copy the key) Tj /F4 10.5 Tf ( button, or select the text and copy it.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 542.6 cm
+Q
+q
+1 0 0 1 82.8 456.1 cm
+q
+.94902 .917647 .85098 rg
+n 0 86.5 446.4 -86.5 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 10 63.5 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 4 Tm /F3 11 Tf 15 TL (Important) Tj T* ET
+Q
+Q
+q
+1 0 0 1 10 30.5 cm
+q
+BT 1 0 0 1 0 18.5 Tm 14.5 TL /F3 10.5 Tf .101961 .070588 .031373 rg (The key is shown once and then it's gone forever.) Tj /F4 10.5 Tf ( We don't store it \227 we only keep a scrambled) Tj T* (fingerprint of it, so nobody can look it up later. Not another user, and not us.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 10 26.5 cm
+Q
+q
+1 0 0 1 10 12 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 4 Tm /F4 10.5 Tf 14.5 TL (If you close the page without copying it, nothing bad happens. Just come back and cut another one.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 10 8 cm
+Q
+q
+1 J
+1 j
+.541176 .454902 .329412 RG
+.75 w
+n 0 86.5 m 446.4 86.5 l S
+n 0 0 m 446.4 0 l S
+n 0 0 m 0 86.5 l S
+n 446.4 0 m 446.4 86.5 l S
+Q
+Q
+Q
+q
+1 0 0 1 60 448.1 cm
+Q
+q
+1 0 0 1 60 433.6 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 4 Tm /F4 10.5 Tf 14.5 TL (Your key looks something like this:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 413.6 cm
+%PreformattedPara
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 3 Tm /F7 9 Tf 12 TL (qos_kJ8xR2mQpL4vN7wY3zB6cF9hT1sD5gA0) Tj T* ET
+Q
+q
+1 0 0 1 60 405.6 cm
+Q
+q
+1 0 0 1 60 391.1 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 4 Tm /F4 10.5 Tf 14.5 TL (Paste it somewhere safe for the next few minutes \227 a note, or just leave the page open.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 356.1 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 4 Tm /F2 15 Tf 19 TL (Step 2 \227 Put the key in your AI's settings) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 333.6 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 4 Tm /F4 10.5 Tf 14.5 TL (Pick the one you use.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 305.6 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 3.5 Tm /F2 12.5 Tf 16 TL (If you use Claude Desktop) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 285.1 cm
+BT /F1 9 Tf 10.8 TL ET
+0 0 0 rg
+BT 1 0 0 1 -10 5.5 Tm (1) Tj T* ET
+Q
+q
+1 0 0 1 66 285.1 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 4 Tm /F4 10.5 Tf 14.5 TL (Open Claude Desktop.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 266.6 cm
+BT /F1 9 Tf 10.8 TL ET
+0 0 0 rg
+BT 1 0 0 1 -10 5.5 Tm (2) Tj T* ET
+Q
+q
+1 0 0 1 66 266.6 cm
+q
+BT 1 0 0 1 0 4 Tm 14.5 TL /F4 10.5 Tf .101961 .070588 .031373 rg (Go to ) Tj /F3 10.5 Tf (Settings) Tj /F4 10.5 Tf ( \(from the Claude menu at the top of your screen\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 248.1 cm
+BT /F1 9 Tf 10.8 TL ET
+0 0 0 rg
+BT 1 0 0 1 -10 5.5 Tm (3) Tj T* ET
+Q
+q
+1 0 0 1 66 248.1 cm
+q
+BT 1 0 0 1 0 4 Tm 14.5 TL /F4 10.5 Tf .101961 .070588 .031373 rg (Click ) Tj /F3 10.5 Tf (Developer) Tj /F4 10.5 Tf (, then ) Tj /F3 10.5 Tf (Edit Config) Tj /F4 10.5 Tf (. A file opens in a text editor.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 229.6 cm
+BT /F1 9 Tf 10.8 TL ET
+0 0 0 rg
+BT 1 0 0 1 -10 5.5 Tm (4) Tj T* ET
+Q
+q
+1 0 0 1 66 229.6 cm
+q
+BT 1 0 0 1 0 4 Tm 14.5 TL /F4 10.5 Tf .101961 .070588 .031373 rg (You'll see something that starts with ) Tj /F7 10.5 Tf ({) Tj /F4 10.5 Tf ( and ends with ) Tj /F7 10.5 Tf (}) Tj /F4 10.5 Tf (. If the file is completely empty, paste this whole block in.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 219.6 cm
+Q
+q
+1 0 0 1 60 87.6 cm
+%PreformattedPara
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 123 Tm /F7 9 Tf 12 TL ({) Tj T* (  "mcpServers": {) Tj T* (    "questos": {) Tj T* (      "type": "http",) Tj T* (      "url": "https://quest-os-nine.vercel.app/api/mcp",) Tj T* (      "headers": {) Tj T* (        "Authorization": "Bearer PASTE_YOUR_KEY_HERE") Tj T* (      }) Tj T* (    }) Tj T* (  }) Tj T* (}) Tj T* ET
+Q
+q
+1 0 0 1 60 79.6 cm
+Q
+ 
+endstream
+endobj
+20 0 obj
+<<
+/Length 5510
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 8.5 Tf 10.2 TL ET
+.352941 .313725 .25098 rg
+BT 1 0 0 1 54 752.4 Tm (QuestOS \227 Set Up Your AI) Tj T* ET
+BT 1 0 0 1 553.274 752.4 Tm (3) Tj T* ET
+.541176 .454902 .329412 RG
+.5 w
+n 54 747.36 m 558 747.36 l S
+Q
+q
+1 0 0 1 60 688.6 cm
+BT /F1 9 Tf 10.8 TL ET
+0 0 0 rg
+BT 1 0 0 1 -10 20 Tm (1) Tj T* ET
+Q
+q
+1 0 0 1 66 688.6 cm
+q
+BT 1 0 0 1 0 18.5 Tm 14.5 TL /F4 10.5 Tf .101961 .070588 .031373 rg (Replace ) Tj /F7 10.5 Tf (PASTE_YOUR_KEY_HERE) Tj /F4 10.5 Tf ( with the key you copied. **Keep the word ) Tj /F7 10.5 Tf (Bearer) Tj /F4 10.5 Tf ( and the space after it.**) Tj T* (It should end up looking like ) Tj /F7 10.5 Tf ("Bearer qos_kJ8xR2...") Tj /F4 10.5 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 670.1 cm
+BT /F1 9 Tf 10.8 TL ET
+0 0 0 rg
+BT 1 0 0 1 -10 5.5 Tm (2) Tj T* ET
+Q
+q
+1 0 0 1 66 670.1 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 4 Tm /F4 10.5 Tf 14.5 TL (Save the file.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 637.1 cm
+BT /F1 9 Tf 10.8 TL ET
+0 0 0 rg
+BT 1 0 0 1 -10 20 Tm (3) Tj T* ET
+Q
+q
+1 0 0 1 66 637.1 cm
+q
+BT 1 0 0 1 0 18.5 Tm 14.5 TL /F3 10.5 Tf .101961 .070588 .031373 rg (Quit Claude Desktop completely and open it again.) Tj /F4 10.5 Tf ( Closing the window isn't enough \227 quit it properly. It only) Tj T* (reads that file when it starts.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 627.1 cm
+Q
+q
+1 0 0 1 60 599.1 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 3.5 Tm /F2 12.5 Tf 16 TL (If you use Claude Code) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 578.6 cm
+BT /F1 9 Tf 10.8 TL ET
+0 0 0 rg
+BT 1 0 0 1 -10 5.5 Tm (1) Tj T* ET
+Q
+q
+1 0 0 1 66 578.6 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 4 Tm /F4 10.5 Tf 14.5 TL (In your terminal, go to any folder you work in.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 560.1 cm
+BT /F1 9 Tf 10.8 TL ET
+0 0 0 rg
+BT 1 0 0 1 -10 5.5 Tm (2) Tj T* ET
+Q
+q
+1 0 0 1 66 560.1 cm
+q
+BT 1 0 0 1 0 4 Tm 14.5 TL /F4 10.5 Tf .101961 .070588 .031373 rg (Create or open a file called ) Tj /F7 10.5 Tf (.mcp.json) Tj /F4 10.5 Tf ( in that folder.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 541.6 cm
+BT /F1 9 Tf 10.8 TL ET
+0 0 0 rg
+BT 1 0 0 1 -10 5.5 Tm (3) Tj T* ET
+Q
+q
+1 0 0 1 66 541.6 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 4 Tm /F4 10.5 Tf 14.5 TL (Paste the same block as above, with your key.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 523.1 cm
+BT /F1 9 Tf 10.8 TL ET
+0 0 0 rg
+BT 1 0 0 1 -10 5.5 Tm (4) Tj T* ET
+Q
+q
+1 0 0 1 66 523.1 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 4 Tm /F4 10.5 Tf 14.5 TL (Save it, and restart Claude Code.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 513.1 cm
+Q
+q
+1 0 0 1 60 478.1 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 4 Tm /F2 15 Tf 19 TL (Step 3 \227 Try it) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 455.6 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 4 Tm /F4 10.5 Tf 14.5 TL (Ask your AI:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 433.1 cm
+q
+.352941 .313725 .25098 rg
+BT 1 0 0 1 18 4 Tm /F6 10.5 Tf 14.5 TL ("What are my open roads in QuestOS?") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 419.1 cm
+Q
+q
+1 0 0 1 60 404.6 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 4 Tm /F4 10.5 Tf 14.5 TL (If it lists your actual quests, you're done.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 382.1 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 4 Tm /F4 10.5 Tf 14.5 TL (Other things to try:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 359.6 cm
+q
+.352941 .313725 .25098 rg
+BT 1 0 0 1 18 4 Tm /F5 10.5 Tf 14.5 TL ("What should I focus on today according to QuestOS?") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 337.1 cm
+q
+.352941 .313725 .25098 rg
+BT 1 0 0 1 18 4 Tm /F5 10.5 Tf 14.5 TL ("What skills am I building?") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 314.6 cm
+q
+.352941 .313725 .25098 rg
+BT 1 0 0 1 18 4 Tm /F5 10.5 Tf 14.5 TL ("Find anything in my QuestOS about the kitchen.") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 300.6 cm
+Q
+q
+1 0 0 1 60 265.6 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 4 Tm /F2 15 Tf 19 TL (If something doesn't work) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 237.6 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 3.5 Tm /F2 12.5 Tf 16 TL ("I don't see The Ring of Keys") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 202.6 cm
+q
+BT 1 0 0 1 0 18.5 Tm -0.031891 Tw 14.5 TL /F4 10.5 Tf .101961 .070588 .031373 rg (You're not signed in. Click the [key icon] at the bottom right and enter your email, then open the link it emails you ) Tj /F3 10.5 Tf (in) Tj T* 0 Tw (the same browser you're using) Tj /F4 10.5 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 174.6 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 3.5 Tm /F2 12.5 Tf 16 TL (My AI says it can't find QuestOS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 154.1 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 4 Tm /F4 10.5 Tf 14.5 TL (Three things to check, in order:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 131.6 cm
+BT /F1 9 Tf 10.8 TL ET
+0 0 0 rg
+BT 1 0 0 1 -10 5.5 Tm (1) Tj T* ET
+Q
+q
+1 0 0 1 66 131.6 cm
+q
+BT 1 0 0 1 0 4 Tm 14.5 TL /F3 10.5 Tf .101961 .070588 .031373 rg (Did you fully quit and reopen the app?) Tj /F4 10.5 Tf ( This is the most common one. Closing the window isn't quitting.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 113.1 cm
+BT /F1 9 Tf 10.8 TL ET
+0 0 0 rg
+BT 1 0 0 1 -10 5.5 Tm (2) Tj T* ET
+Q
+q
+1 0 0 1 66 113.1 cm
+q
+BT 1 0 0 1 0 4 Tm 14.5 TL /F4 10.5 Tf .101961 .070588 .031373 rg (**Is the word ) Tj /F7 10.5 Tf (Bearer) Tj /F4 10.5 Tf ( still there,** with a space after it, before your key?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 80.1 cm
+BT /F1 9 Tf 10.8 TL ET
+0 0 0 rg
+BT 1 0 0 1 -10 20 Tm (3) Tj T* ET
+Q
+q
+1 0 0 1 66 80.1 cm
+q
+BT 1 0 0 1 0 18.5 Tm 14.5 TL /F3 10.5 Tf .101961 .070588 .031373 rg (Are all the quotes and commas intact?) Tj /F4 10.5 Tf ( JSON is fussy. One missing comma breaks the whole file. If you're) Tj T* (unsure, delete everything and paste the block again fresh.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 70.1 cm
+Q
+ 
+endstream
+endobj
+21 0 obj
+<<
+/Length 4539
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 8.5 Tf 10.2 TL ET
+.352941 .313725 .25098 rg
+BT 1 0 0 1 54 752.4 Tm (QuestOS \227 Set Up Your AI) Tj T* ET
+BT 1 0 0 1 553.274 752.4 Tm (4) Tj T* ET
+.541176 .454902 .329412 RG
+.5 w
+n 54 747.36 m 558 747.36 l S
+Q
+q
+1 0 0 1 60 701.6 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 3.5 Tm /F2 12.5 Tf 16 TL ("That key opens nothing") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 666.6 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 18.5 Tm /F4 10.5 Tf 14.5 TL -0.02766 Tw (The key is wrong or was typed rather than pasted. Cut a new one \227 it takes ten seconds, and old keys don't get in the) Tj T* 0 Tw (way.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 644.1 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 4 Tm /F4 10.5 Tf 14.5 TL (Watch out for an accidental space at the beginning or end when you paste.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 616.1 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 3.5 Tm /F2 12.5 Tf 16 TL (My AI says my QuestOS is empty) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 581.1 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 18.5 Tm /F4 10.5 Tf 14.5 TL (You're signed in, but nothing has been saved to your account yet. Open QuestOS, change something \(tick a task, add) Tj T* (one\), then ask again.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 553.1 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 3.5 Tm /F2 12.5 Tf 16 TL (My AI tried to change something and couldn't) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 518.1 cm
+q
+BT 1 0 0 1 0 18.5 Tm -0.012429 Tw 14.5 TL /F4 10.5 Tf .101961 .070588 .031373 rg (That's correct. It's read-only on purpose. To change something, do it in QuestOS itself \227 or tell the squire in the app,) Tj T* 0 Tw (which ) Tj /F5 10.5 Tf (can) Tj /F4 10.5 Tf ( act.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 483.1 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 4 Tm /F2 15 Tf 19 TL (Common questions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 460.6 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 4 Tm /F3 10.5 Tf 14.5 TL (Can my AI see my journal or my private notes?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 423.6 cm
+q
+BT 1 0 0 1 0 18.5 Tm 14.5 TL /F4 10.5 Tf .101961 .070588 .031373 rg (No. It can see titles, dates, progress and skill levels. It ) Tj /F3 10.5 Tf (cannot) Tj /F4 10.5 Tf ( see your journal, your morning pages, your evening) Tj T* (reflections, your private notes on tasks, or your descriptions. Those never leave.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 386.6 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 18.5 Tm /F4 10.5 Tf 14.5 TL (This isn't a promise about good behaviour \227 the notes are filtered out before anything is sent, and there are) Tj T* (automated tests that fail if a single private word ever gets through.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 364.1 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 4 Tm /F3 10.5 Tf 14.5 TL (Can other people see my QuestOS?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 341.6 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 4 Tm /F4 10.5 Tf 14.5 TL (No. Your key reads your account and no one else's. Nobody else's key can reach yours.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 319.1 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 4 Tm /F3 10.5 Tf 14.5 TL (What if I lose my key, or think someone else has it?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 282.1 cm
+q
+BT 1 0 0 1 0 18.5 Tm 14.5 TL /F4 10.5 Tf .101961 .070588 .031373 rg (Cut a new one any time. To shut an old key off completely, email whoever set you up and ask them to revoke it. ) Tj /F5 10.5 Tf (\(A) Tj T* (revoke button is coming.\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 259.6 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 4 Tm /F3 10.5 Tf 14.5 TL (Does this cost anything?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 222.6 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 18.5 Tm /F4 10.5 Tf 14.5 TL (No. Your AI subscription is your own and this doesn't touch it. QuestOS doesn't charge for reading your own) Tj T* (information.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 200.1 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 4 Tm /F3 10.5 Tf 14.5 TL (Do I have to do this?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 163.1 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 18.5 Tm /F4 10.5 Tf 14.5 TL (Not at all. QuestOS works perfectly without it. This is for people who already talk to an AI every day and want it to) Tj T* (stop guessing.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 128.1 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 4 Tm /F2 15 Tf 19 TL (In one picture) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 60.1 cm
+%PreformattedPara
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 51 Tm /F7 9 Tf 12 TL (   You ask your AI a question) Tj T* (              ) Tj /F8 9 Tf 12 TL (\257) Tj /F7 9 Tf 12 TL T* (   Your AI uses your key) Tj T* (              ) Tj /F8 9 Tf 12 TL (\257) Tj /F7 9 Tf 12 TL T* (   QuestOS checks the key,) Tj T* ET
+Q
+ 
+endstream
+endobj
+22 0 obj
+<<
+/Length 1133
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 8.5 Tf 10.2 TL ET
+.352941 .313725 .25098 rg
+BT 1 0 0 1 54 752.4 Tm (QuestOS \227 Set Up Your AI) Tj T* ET
+BT 1 0 0 1 553.274 752.4 Tm (5) Tj T* ET
+.541176 .454902 .329412 RG
+.5 w
+n 54 747.36 m 558 747.36 l S
+Q
+q
+1 0 0 1 60 633.6 cm
+%PreformattedPara
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 75 Tm /F7 9 Tf 12 TL (   finds YOUR account only) Tj T* (              ) Tj /F8 9 Tf 12 TL (\257) Tj /F7 9 Tf 12 TL T* (   Sends back: titles, dates,) Tj T* (   progress, skill levels) Tj T* (   \(never your private words\)) Tj T* (              ) Tj /F8 9 Tf 12 TL (\257) Tj /F7 9 Tf 12 TL T* (   Your AI answers you) Tj T* ET
+Q
+q
+1 0 0 1 60 625.6 cm
+Q
+q
+1 0 0 1 60 611.1 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 4 Tm /F4 10.5 Tf 14.5 TL (Nothing goes the other way. Your AI cannot write to QuestOS.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 574.1 cm
+q
+.101961 .070588 .031373 rg
+BT 1 0 0 1 0 18.5 Tm /F5 10.5 Tf 14.5 TL (Stuck? Send feedback from inside QuestOS \227 tap the white pigeon [white pigeon] in the bottom-left corner and) Tj T* (describe what happened. That reaches a human.) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+xref
+0 23
+0000000000 65535 f 
+0000000061 00000 n 
+0000000166 00000 n 
+0000000273 00000 n 
+0000000385 00000 n 
+0000000493 00000 n 
+0000000602 00000 n 
+0000000712 00000 n 
+0000000826 00000 n 
+0000001021 00000 n 
+0000001126 00000 n 
+0000001322 00000 n 
+0000001518 00000 n 
+0000001596 00000 n 
+0000001792 00000 n 
+0000001988 00000 n 
+0000002058 00000 n 
+0000002448 00000 n 
+0000002536 00000 n 
+0000007249 00000 n 
+0000013286 00000 n 
+0000018848 00000 n 
+0000023439 00000 n 
+trailer
+<<
+/ID 
+[<7e3219d28ead7d67d27ad9f38687a3f2><7e3219d28ead7d67d27ad9f38687a3f2>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 16 0 R
+/Root 15 0 R
+/Size 23
+>>
+startxref
+24624
+%%EOF
