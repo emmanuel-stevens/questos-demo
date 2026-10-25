@@ -1,0 +1,15 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["TCZUFJ5XVK.io.questos.gate"],
+        "components": [
+          {
+            "/": "/auth/confirm",
+            "comment": "The realm's sign-in letter opens the QuestOS app (D257 = A). This one path and nothing else."
+          }
+        ]
+      }
+    ]
+  }
+}
