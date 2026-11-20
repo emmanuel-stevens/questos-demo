@@ -1,0 +1,1 @@
+import{c as e,j as o,R as t}from"./styles-C7wVefZB.js";import r from"./RiverPlates-CpVtSRIY.js";const s=()=>window.location.assign("/questos-demo/");e.createRoot(document.getElementById("root")).render(o.jsx(t.StrictMode,{children:o.jsx(r,{friendsCopy:!0,onClose:s})}));
