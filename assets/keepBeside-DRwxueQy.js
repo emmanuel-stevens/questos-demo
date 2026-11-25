@@ -1,0 +1,1 @@
+import{c0 as s}from"./index-D68ZsN-E.js";const r=(o,e)=>`?id=${encodeURIComponent(o)}&use=${encodeURIComponent(e)}`;function c(o,e,n={}){return s(r(o,e),{method:"PATCH"},n)}const k=(o,e,n)=>{const t=new Set(o);return n?t.add(e):t.delete(e),t};export{k as a,c as k};
